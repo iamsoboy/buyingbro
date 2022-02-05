@@ -1,0 +1,114 @@
+/* Payment page */
+
+#payment-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#payment-page .container {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1110px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.checkout-component {
+    background: #f7f8f9;
+    border: 1px solid #e6e9eb;
+    border-radius: 12px;
+    margin: 8px 0;
+}
+
+
+/* Adyen Components */
+.payment {
+    width: 100%;
+    padding-top: 0px !important;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+@media screen and (max-width: 1076px) {
+    #payment-page .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .payment {
+        align-self: center;
+        max-width: 610px;
+    }
+}
+
+.payment-container {
+    display: flex;
+    justify-content: center;
+    background: #f7f8f9;
+    border: 1px solid #e6e9eb;
+    border-radius: 12px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    width: 100%;
+    height: 100%;
+}
+
+/* end Payments page */
+
+/* Dropin page */
+
+#dropin {
+    width: 100%;
+}
+
+@media screen and (max-width: 1076px) {
+    #dropin {
+        width: 100%;
+    }
+}
+
+/* end Dropin page */
+
+
+/* Status page */
+
+.status-container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.status {
+    margin: 100px 0 126px;
+    text-align: center;
+}
+
+.status .status-image {
+    display: block;
+    height: 100px;
+    margin: 16px auto 0;
+}
+
+.status .status-image-thank-you {
+    height: 66px;
+}
+
+.status .status-message {
+    margin: 8px 0 24px;
+}
+
+.status .button {
+    max-width: 236px;
+}
+
+@media (min-width: 768px) {
+    .status .button {
+        max-width: 200px;
+    }
+}
