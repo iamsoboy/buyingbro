@@ -47,7 +47,7 @@ class StripeController extends Controller
         $amount = (str_replace(',', '', Cart::instance('default')->total()));
         $currency = currency()->getUserCurrency();
 
-        $stripe = Stripe::make('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');
+        $stripe = Stripe::make('');
 
         try {
 
